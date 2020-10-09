@@ -7,6 +7,8 @@
   "browser": "./lib/esm/index.js",
   "main": "./lib/umd/index.js",
   "module": "./lib/esm/index.js",
+  "esm": true,
+  "style": "lib/style.css",
   "scripts": {
     "build": "npm run build:types && npm run build:esm && npm run build:umd && npm run rollup",
     "build:clean": "rm -rf lib",
